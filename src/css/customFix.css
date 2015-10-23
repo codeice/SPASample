@@ -1,0 +1,274 @@
+﻿* {
+    font-family: 微软雅黑;
+}
+
+.defaultcursor {
+    cursor: default !important;
+}
+
+.background-grey {
+    background-color: rgb(241, 243, 250);
+}
+
+.pagination ul li {
+    cursor: pointer;
+}
+
+/*modal close button*/
+.close {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 9px;
+    height: 9px;
+    background-repeat: no-repeat !important;
+    text-indent: -10000px;
+    outline: none;
+    background-image: url("../images/remove-icon-small.png") !important;
+}
+
+.btn-white {
+    color: #fff;
+}
+
+.display-none {
+    display: none;
+}
+
+/******error******/
+.require-tip,
+.custom-error {
+    color: red;
+}
+
+input.ng-invalid .ng-dirty {
+    border-color: red;
+}
+
+
+/***********padding margin************/
+
+.margin-left-2 {
+    margin-left: 2px;
+}
+
+.padding-left-8 {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.padding-left-6 {
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+.padding-right-3 {
+    padding-right: 3px;
+}
+
+.padding-right-5 {
+    padding-right: 5px;
+}
+
+.padding-right-8 {
+    padding-right: 8px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+    float: left;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-3 {
+    margin-top: 3px;
+}
+
+.top-20 {
+    top: 20px;
+}
+
+.height-33 {
+    height: 33px;
+    line-height: 33px;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.control-label-pullLeft {
+    float: left;
+    font-size: 17px;
+    height: 28px;
+    line-height: 28px;
+}
+
+
+.control-label-pullLeft-font14 {
+    float: left;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-right: 8px;
+}
+
+
+/***************applciatioon oauth config list**************/
+.list-container {
+    max-height: 100px;
+    overflow-x: hidden;
+    margin-top: 5px;
+}
+
+    .list-container > .list-wrapper {
+        width: 220px;
+        height: 20px;
+        padding: 3px 25px 3px 5px;
+        margin: 2px 5px 5px 0;
+        color: gray;
+    }
+
+.list-wrapper .list-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    max-width: 190px;
+}
+
+
+/******************ace tree and ztree style *********************/
+.tree:before {
+    display: none !important;
+}
+
+.tree-container {
+    min-height: 600px;
+}
+
+.org-container {
+    min-height: 573px;
+    border-left: none;
+}
+
+.user-container {
+    padding-bottom: 0;
+}
+
+.min-height-600 {
+    min-height: 600px;
+}
+
+/*********************ztree style ******************/
+
+.ztree li span.button.parent_ico_open {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle/img/diy/1_open.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+.ztree li span.button.parent_ico_close {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle/img/diy/1_close.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+.ztree li span.button.leaf_ico_open {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle/img/diy/1_open.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+.ztree li span.button.leaf_ico_close {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle/img/diy/1_close.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+}
+
+.ztree li span.button.parent_ico_docu {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle/img/diy/1_open.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+.ztree li span.button.leaf_ico_docu {
+    margin-right: 2px;
+    background: url(../libs/ztree/css/zTreeStyle//img/diy/3.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle;
+}
+
+/***************************ace style rewrite***************************/
+.profile-info-value {
+    height: 20px;
+}
+
+.dropdown-menu li:hover {
+    cursor: pointer;
+}
+
+.dropdown-menu li > a {
+    color: #555;
+}
+
+.search-pull-left {
+    left: 16px;
+}
+
+.checkbox-inline, .radio-inline, .label-inline {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: normal;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/**************************upload thumbnail***************/
+.thumbnail {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+    }
+
+.remove-circle-icon {
+    margin-right: 3px;
+    float: right;
+    background-color: #fb7142 !important;
+    border-radius: 15px;
+}
+
+/******************jqGrid css**********************/
+.ui-jqgrid {
+    font-family: 微软雅黑;
+}
+
+
+/*******************bootstrap css rewrite**********************/
+.table {
+    margin-bottom: 0 !important;
+}
